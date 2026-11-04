@@ -1,0 +1,108 @@
+{
+  "title": "The Bridge That Fell For a Song",
+  "duration_seconds": 67,
+  "fps": 30,
+  "total_frames": 2001,
+  "story_beat": {
+    "hook": "Frame 0-15: The hook - introducing the bridge and the 74 soldiers marching in step",
+    "setup": "Frame 15-40: Setup - showing the bridge, the soldiers, the river, the town below",
+    "build_1": "Frame 40-70: First build - soldiers marching, increasing tempo, the bridge beginning to creak",
+    "snap_1": "Frame 70-85: First snap - initial creak, first soldiers lose footing",
+    "build_2": "Frame 85-110: Second build - tempo increases, more soldiers join, the bridge begins to sway",
+    "snap_2": "Frame 110-125: Second snap - harder creak, more soldiers falling, the bridge deck tilting",
+    "build_3": "Frame 125-150: Third build - maximum tempo, all soldiers marching, the bridge visibly shaking",
+    "snap_3": "Frame 150-170: Third snap - the breaking point, the bridge beginning to collapse",
+    "deadpan": "Frame 170-185: The deadpan moment - silence after the collapse, the aftermath",
+    "explanation": "Frame 185-210: The explanation - why the bridge fell, the physics of resonance",
+    "conclusion": "Frame 210-235: The conclusion - the new rule, the lesson learned",
+    "credits": "Frame 235-267: Credits and closing"
+  },
+  "shot_structure": {
+    "shot_types": {
+      "wide": "Establishing shots of the bridge and scene",
+      "medium": "Medium shots of soldiers and action",
+      "closeup": "Closeups of key moments and details",
+      "extreme_closeup": "Extreme closeups for emphasis",
+      "aerial": "Aerial shots showing the full bridge and river",
+      "pan": "Panning shots across the scene",
+      "tracking": "Tracking shots following the soldiers"
+    },
+    "shot_distribution": {
+      "wide": 15,
+      "medium": 45,
+      "closeup": 25,
+      "extreme_closeup": 5,
+      "aerial": 5,
+      "pan": 5,
+      "tracking": 5
+    }
+  },
+  "lighting_presets": {
+    "day": {
+      "az": 75,
+      "el": 48,
+      "lit": [
+        1.58,
+        1.5,
+        1.33
+      ],
+      "shade": [
+        0.3,
+        0.29,
+        0.36
+      ],
+      "lift": [
+        0.05,
+        0.06,
+        0.11
+      ],
+      "top": "#3e7fd2",
+      "hor": "#b8d0ec",
+      "fog": "#b8d0ec",
+      "fog_near": 25,
+      "fog_far": 300,
+      "fog_sat": 1.08
+    },
+    "golden": {
+      "az": 6,
+      "el": 7,
+      "lit": [
+        1.5,
+        0.68,
+        0.24
+      ],
+      "shade": [
+        0.15,
+        0.15,
+        0.3
+      ],
+      "lift": [
+        0.04,
+        0.06,
+        0.17
+      ],
+      "top": "#ffc47c",
+      "hor": "#8a6f8a",
+      "fog": "#efb489",
+      "fog_near": 50,
+      "fog_far": 380,
+      "fog_sat": 1.1
+    }
+  },
+  "palette": {
+    "day_primary": "#3e7fd2",
+    "day_secondary": "#b8d0ec",
+    "golden_primary": "#ffc47c",
+    "golden_secondary": "#8a6f8a",
+    "soldier_ink": "#241726",
+    "soldier_uniform": "#357650",
+    "bridge_struc": "#432230",
+    "river_water": "#1a5596",
+    "sky_gradient": "#3e7fd2 to #b8d0ec"
+  },
+  "audio_references": {
+    "reference_story": "The Bridge That Fell for a Song",
+    "duration": "67 seconds",
+    "description": "Original 67 second short about the 1831 Broughton bridge and 74 soldiers"
+  }
+}
